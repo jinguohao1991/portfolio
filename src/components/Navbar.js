@@ -39,7 +39,9 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <h1 className="heading-name">
+            <strong className="main-name">K.Y.</strong>
+          </h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -92,26 +94,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://blogs.soumyajit.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -463,6 +463,14 @@ html {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
+.project-card-image {
+  box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.459) !important;
+  margin: 12px!important;
+  padding: 0!important;
+  border-radius: 5px;
+}
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
