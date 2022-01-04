@@ -4,11 +4,10 @@ import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
   AiFillAccountBook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { CgFacebook } from "react-icons/cg";
 
 function Home2() {
   return (
@@ -84,6 +83,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100074617040454"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <CgFacebook />
                 </a>
               </li>
               <li className="social-icons">
